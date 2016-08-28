@@ -12,14 +12,14 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-hdpi/values-hdpi.xml",
+                    "file": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 282,
-                        "endLine": 8,
+                        "startOffset": 55,
+                        "endLine": 6,
                         "endColumn": 13,
-                        "endOffset": 554
+                        "endOffset": 327
                     }
                 }
             }
