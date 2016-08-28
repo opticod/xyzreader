@@ -7,27 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 53,
-                    "endOffset": 104
-                },
-                "from": {
-                    "file": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values-w800dp/macro_layout.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 232,
-                        "endColumn": 53,
-                        "endOffset": 281
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 109,
                     "endColumn": 47,
-                    "endOffset": 152
+                    "endOffset": 98
                 },
                 "from": {
                     "file": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values-w800dp/macro_layout.xml",
@@ -42,39 +23,20 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 157,
-                    "endColumn": 55,
-                    "endOffset": 208
-                },
-                "from": {
-                    "file": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values-w800dp/macro_layout.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 82,
-                        "endColumn": 55,
-                        "endOffset": 133
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 213,
+                    "startOffset": 103,
                     "endColumn": 49,
-                    "endOffset": 258
+                    "endOffset": 148
                 },
                 "from": {
                     "file": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values-w800dp/macro_layout.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 161,
+                        "startOffset": 109,
                         "endColumn": 49,
-                        "endOffset": 206
+                        "endOffset": 154
                     }
                 }
             }

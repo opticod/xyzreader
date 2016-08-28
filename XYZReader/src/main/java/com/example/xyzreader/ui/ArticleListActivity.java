@@ -8,6 +8,8 @@ import android.content.IntentFilter;
 import android.content.Loader;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
@@ -32,11 +34,11 @@ import com.example.xyzreader.data.UpdaterService;
 public class ArticleListActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {
 
-    private Toolbar mToolbar;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
+    private Snackbar snackbar;
     private boolean mIsRefreshing = false;
-    private BroadcastReceiver mRefreshingReceiver = new BroadcastReceiver() {
+    private final BroadcastReceiver mRefreshingReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
             if (UpdaterService.BROADCAST_ACTION_STATE_CHANGE.equals(intent.getAction())) {
@@ -51,13 +53,13 @@ public class ArticleListActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_list);
 
+        Toolbar mToolbar = (Toolbar) findViewById(R.id.toolbar);
+
+
+        CoordinatorLayout toolbarContainerView = (CoordinatorLayout) findViewById(R.id.toolbar_container);
+        snackbar = Snackbar.make(toolbarContainerView, "XYZ reader updated.", Snackbar.LENGTH_SHORT);
+
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
-        mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                refresh();
-            }
-        });
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         getLoaderManager().initLoader(0, null, this);
@@ -85,6 +87,9 @@ public class ArticleListActivity extends AppCompatActivity implements
     }
 
     private void updateRefreshingUI() {
+        if (!mIsRefreshing) {
+            snackbar.show();
+        }
         mSwipeRefreshLayout.setRefreshing(mIsRefreshing);
     }
 
@@ -110,9 +115,9 @@ public class ArticleListActivity extends AppCompatActivity implements
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public DynamicHeightNetworkImageView thumbnailView;
-        public TextView titleView;
-        public TextView subtitleView;
+        public final DynamicHeightNetworkImageView thumbnailView;
+        public final TextView titleView;
+        public final TextView subtitleView;
 
         public ViewHolder(View view) {
             super(view);
@@ -123,7 +128,7 @@ public class ArticleListActivity extends AppCompatActivity implements
     }
 
     private class Adapter extends RecyclerView.Adapter<ViewHolder> {
-        private Cursor mCursor;
+        private final Cursor mCursor;
 
         public Adapter(Cursor cursor) {
             mCursor = cursor;

@@ -4,10 +4,6 @@
         "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/padded_divider.xml",
-        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/drawable/padded_divider.xml"
-    },
-    {
         "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_cab_background_top_material.xml"
     },
@@ -72,20 +68,12 @@
         "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
-        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/photo_background_protection.xml",
-        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/drawable/photo_background_protection.xml"
+        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
         "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
@@ -100,20 +88,12 @@
         "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
-        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
-        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
@@ -128,16 +108,12 @@
         "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
         "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/add_fab_background.xml",
-        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/drawable/add_fab_background.xml"
+        "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/home/anupam/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",

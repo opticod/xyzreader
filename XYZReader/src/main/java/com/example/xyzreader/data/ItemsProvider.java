@@ -101,11 +101,11 @@ public class ItemsProvider extends ContentProvider {
         final List<String> paths = uri.getPathSegments();
         switch (match) {
             case ITEMS: {
-                return builder.table(Tables.ITEMS);
+                return builder.table();
             }
             case ITEMS__ID: {
                 final String _id = paths.get(1);
-                return builder.table(Tables.ITEMS).where(ItemsContract.Items._ID + "=?", _id);
+                return builder.table().where(ItemsContract.Items._ID + "=?", _id);
             }
             default: {
                 throw new UnsupportedOperationException("Unknown uri: " + uri);
